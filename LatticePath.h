@@ -38,6 +38,9 @@ public:
 
     // Constructor
     LatticePath(int length, vector<vector<int>> steps);
+    
+    // Destructor
+    ~LatticePath();
 
     // Updates the length of the lattice path
     void setLength(int lengthOfPath);
