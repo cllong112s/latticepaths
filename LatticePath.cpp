@@ -55,6 +55,11 @@ LatticePath::LatticePath(int length, vector<vector<int>> steps) {
     cout << endl;
 }
 
+// Deconstructor
+LatticePath::~LatticePath() {
+    cout << "Deconstructor" << endl;
+}
+
 // Sets/changes the length of the lattice path.
 void LatticePath::setLength(int lengthOfPath) {
     this -> length = lengthOfPath;
