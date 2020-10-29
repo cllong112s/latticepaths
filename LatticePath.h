@@ -62,9 +62,6 @@ public:
 
     // Finds all the sequences shorter than maxLength that avoid the input path
     vector<vector<vector<int>>> calculateAvoiders(vector<vector<int>> pathToAvoid, vector<vector<vector<int>>> allPaths);
-
-    // Graphs the path in the GUI that is under construction
-    void graphPath(vector<int> pathToGraph);
 };
 
 
